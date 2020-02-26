@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <button @click="fetchData">Get data</button>
+      <button @click="fetchData">See data</button>
       <p>{{userData}}</p>
     </div>
   </div>

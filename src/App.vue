@@ -36,7 +36,7 @@ export default {
       error.value = e;
       return true;
     });
-    return { onErrorCaptured };
+    return { error };
   },
   components: {
     Home
